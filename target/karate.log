@@ -1,0 +1,59 @@
+18:13:28.600 [main] INFO  i.g.c.config.GatlingConfiguration$ - Gatling will try to load 'gatling.conf' config file as ClassLoader resource.
+18:13:29.393 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+18:13:33.454 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:13:33.464 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+18:13:34.298 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+18:13:34.606 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:13:34.617 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+18:13:34.952 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+18:13:35.318 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:13:35.323 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+18:13:35.603 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+18:13:36.013 [GatlingSystem-akka.actor.default-dispatcher-14] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initializing
+18:13:36.033 [GatlingSystem-akka.actor.default-dispatcher-15] INFO  i.g.c.stats.writer.LogFileDataWriter - Initializing
+18:13:36.043 [GatlingSystem-akka.actor.default-dispatcher-14] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initialized
+18:13:36.043 [GatlingSystem-akka.actor.default-dispatcher-15] INFO  i.g.c.stats.writer.LogFileDataWriter - Initialized
+18:13:36.175 [GatlingSystem-akka.actor.default-dispatcher-23] INFO  com.intuit.karate - karate.env system property was: null 
+18:13:36.178 [GatlingSystem-akka.actor.default-dispatcher-23] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+18:13:36.533 [GatlingSystem-akka.actor.default-dispatcher-23] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+18:13:40.128 [GatlingSystem-akka.actor.default-dispatcher-38] INFO  com.intuit.karate - karate.env system property was: null 
+18:13:41.156 [GatlingSystem-akka.actor.default-dispatcher-47] INFO  com.intuit.karate - karate.env system property was: null 
+18:13:42.128 [GatlingSystem-akka.actor.default-dispatcher-53] INFO  com.intuit.karate - karate.env system property was: null 
+18:13:43.093 [GatlingSystem-akka.actor.default-dispatcher-68] INFO  com.intuit.karate - karate.env system property was: null 
+18:13:43.262 [GatlingSystem-akka.actor.default-dispatcher-68] ERROR com.intuit.karate - classpath:conduitApp/performance/createArticles.feature:17
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 117, url: https://conduit-api.bondaracademy.com/api/articles, response: 
+{"errors":{"title":["must be unique"]}}
+classpath:conduitApp/performance/createArticles.feature:17
+18:13:44.112 [GatlingSystem-akka.actor.default-dispatcher-78] INFO  com.intuit.karate - karate.env system property was: null 
+18:13:44.283 [GatlingSystem-akka.actor.default-dispatcher-78] ERROR com.intuit.karate - classpath:conduitApp/performance/createArticles.feature:17
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 126, url: https://conduit-api.bondaracademy.com/api/articles, response: 
+{"errors":{"title":["must be unique"]}}
+classpath:conduitApp/performance/createArticles.feature:17
+18:13:45.123 [GatlingSystem-akka.actor.default-dispatcher-90] INFO  com.intuit.karate - karate.env system property was: null 
+18:13:45.315 [GatlingSystem-akka.actor.default-dispatcher-90] ERROR com.intuit.karate - classpath:conduitApp/performance/createArticles.feature:17
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 112, url: https://conduit-api.bondaracademy.com/api/articles, response: 
+{"errors":{"title":["must be unique"]}}
+classpath:conduitApp/performance/createArticles.feature:17
+18:13:46.124 [GatlingSystem-akka.actor.default-dispatcher-10] INFO  com.intuit.karate - karate.env system property was: null 
+18:13:47.099 [GatlingSystem-akka.actor.default-dispatcher-28] INFO  com.intuit.karate - karate.env system property was: null 
+18:13:48.063 [GatlingSystem-akka.actor.default-dispatcher-36] INFO  i.g.c.c.inject.open.OpenWorkload - Scenario io.gatling.core.scenario.Scenario@679f7bee has finished injecting
+18:13:48.063 [GatlingSystem-akka.actor.default-dispatcher-36] INFO  i.g.core.controller.inject.Injector - All scenarios have finished injecting
+18:13:48.123 [GatlingSystem-akka.actor.default-dispatcher-43] INFO  com.intuit.karate - karate.env system property was: null 
+18:13:49.109 [GatlingSystem-akka.actor.default-dispatcher-49] INFO  com.intuit.karate - karate.env system property was: null 
+18:13:49.313 [GatlingSystem-akka.actor.default-dispatcher-49] ERROR com.intuit.karate - classpath:conduitApp/performance/createArticles.feature:17
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 179, url: https://conduit-api.bondaracademy.com/api/articles, response: 
+{"errors":{"title":["must be unique"]}}
+classpath:conduitApp/performance/createArticles.feature:17
+18:13:53.523 [GatlingSystem-akka.actor.default-dispatcher-71] INFO  i.g.core.controller.inject.Injector - All users of scenario create and delete articles are stopped
+18:13:53.523 [GatlingSystem-akka.actor.default-dispatcher-71] INFO  i.g.core.controller.inject.Injector - Stopping
+18:13:53.543 [GatlingSystem-akka.actor.default-dispatcher-71] INFO  i.gatling.core.controller.Controller - Injector has stopped, initiating graceful stop
+18:13:53.613 [GatlingSystem-akka.actor.default-dispatcher-84] INFO  akka.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ActorSystemTerminateReason]
+18:13:53.643 [main] INFO  i.g.charts.stats.LogFileReader$ - Collected List(C:\Automation\new\sureshkarate\target\gatling\perftest-20241213001335966\simulation.log) from perftest-20241213001335966
+18:13:53.663 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass
+18:13:53.675 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass done: read 42 lines
+18:13:53.693 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass
+18:13:53.723 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass: read 42 lines

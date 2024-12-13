@@ -1,0 +1,42 @@
+RUN	performance.PerfTest	perftest	1734048815966	 	3.9.5
+USER	create and delete articles	START	1734048816085
+REQUEST		POST /api/users/login	1734048816209	1734048816525	OK	 
+USER	create and delete articles	START	1734048820076
+USER	create and delete articles	START	1734048821098
+USER	create and delete articles	START	1734048822066
+REQUEST		Create Articles	1734048816759	1734048817033	OK	 
+REQUEST		Delete Articles	1734048822085	1734048822257	OK	 
+USER	create and delete articles	END	1734048822269
+USER	create and delete articles	START	1734048823055
+REQUEST		Create Articles	1734048823126	1734048823243	KO	conduitApp/performance/createArticles.feature:17 status 201
+USER	create and delete articles	END	1734048823318
+USER	create and delete articles	START	1734048824058
+REQUEST		Create Articles	1734048824157	1734048824283	KO	conduitApp/performance/createArticles.feature:17 status 201
+USER	create and delete articles	END	1734048824292
+USER	create and delete articles	START	1734048825070
+REQUEST		Create Articles	1734048825197	1734048825309	KO	conduitApp/performance/createArticles.feature:17 status 201
+USER	create and delete articles	END	1734048825318
+REQUEST		Create Articles	1734048820223	1734048820515	OK	 
+REQUEST		Delete Articles	1734048825553	1734048825698	OK	 
+USER	create and delete articles	END	1734048825712
+USER	create and delete articles	START	1734048826083
+REQUEST		Create Articles	1734048821207	1734048821402	OK	 
+REQUEST		Delete Articles	1734048826428	1734048826563	OK	 
+USER	create and delete articles	END	1734048826569
+USER	create and delete articles	START	1734048827058
+REQUEST		Create Articles	1734048822198	1734048822384	OK	 
+REQUEST		Delete Articles	1734048827408	1734048827573	OK	 
+USER	create and delete articles	END	1734048827584
+USER	create and delete articles	START	1734048828069
+USER	create and delete articles	START	1734048829064
+REQUEST		Create Articles	1734048829129	1734048829308	KO	conduitApp/performance/createArticles.feature:17 status 201
+USER	create and delete articles	END	1734048829319
+REQUEST		Create Articles	1734048826163	1734048826333	OK	 
+REQUEST		Delete Articles	1734048831353	1734048831509	OK	 
+USER	create and delete articles	END	1734048831515
+REQUEST		Create Articles	1734048827118	1734048827293	OK	 
+REQUEST		Delete Articles	1734048832318	1734048832463	OK	 
+USER	create and delete articles	END	1734048832470
+REQUEST		Create Articles	1734048828146	1734048828353	OK	 
+REQUEST		Delete Articles	1734048833368	1734048833523	OK	 
+USER	create and delete articles	END	1734048833526
